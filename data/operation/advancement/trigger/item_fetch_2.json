@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "fetch_2": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"item_fetcher\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [["fetch_2"]],
+    "rewards": {
+        "function": "operation:tool/item_fetcher/get"
+    }
+}

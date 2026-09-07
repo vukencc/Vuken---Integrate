@@ -1,0 +1,2 @@
+data merge entity @s {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,equipment:{saddle:{id:saddle,count:1,components:{enchantments:{"operation:stats/t_limited_1":1,"operation:stats/pas_only":1}}}},data:{stats:{timing_limited:120}}}
+execute positioned ~ ~-200 ~ run ride @s mount @n[type=arrow]

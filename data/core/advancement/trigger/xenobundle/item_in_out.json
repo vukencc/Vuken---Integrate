@@ -1,0 +1,22 @@
+{
+	"criteria":{
+		"data_set":{
+			"trigger":"minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "custom_data": {
+                                    "Xenobundle" : true
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+		}
+	},
+	"requirements": [["data_set"]] ,
+	"rewards":{"function":"core:trigger/passive/xenobundle/inv_in_out"}
+}

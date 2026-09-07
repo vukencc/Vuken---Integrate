@@ -1,0 +1,42 @@
+{
+    "temperature": -0.5,
+    "downfall": 0.4,
+    "has_precipitation": true,
+    "effects": {
+        "grass_color": "#d4feff",
+        "water_color": "#9696cf",
+        "foliage_color": "#d4feff"
+
+    },
+    "spawners": {
+    },
+    "spawn_costs": {
+    },
+    "carvers": [],
+    "features": [],
+    "temperature_modifier":"frozen",
+    "attributes": {
+      "visual/ambient_particles": {
+        "argument": [{
+          "particle": {
+            "type": "end_rod"
+          },
+          "probability": 0.0002
+        },{
+          "particle": {
+            "type": "snowflake"
+          },
+          "probability": 0.0012
+        }],
+        "modifier": "override"
+      },
+      "visual/cloud_height": {
+        "argument": 1000000,
+        "modifier": "add"
+      },
+      "visual/moon_phase": "full_moon",
+      "visual/star_brightness": 0.85,
+      "visual/block_light_tint": "#4b69ac",
+      "visual/fog_color": "#afd5ff"
+    }
+}

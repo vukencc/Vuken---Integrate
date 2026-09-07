@@ -1,0 +1,1 @@
+$execute store result storage poison damage double $(scale) run attribute @s max_health get 10

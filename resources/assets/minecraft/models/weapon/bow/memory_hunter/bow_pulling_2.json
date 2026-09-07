@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "item/weapon/bow/memory_hunter/2"
+  }
+}

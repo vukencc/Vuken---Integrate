@@ -1,0 +1,8 @@
+execute if items entity @s weapon.mainhand *[custom_data~{BundleID:0}] run function core:trigger/passive/potion_charger/bundle_init
+$execute anchored eyes positioned ^ ^ ^2.2 as @n[type=acacia_chest_boat,distance=..8,tag=PotionCharger.Init,scores={marker=$(id)}] run return run tp @s ~ ~-0.2 ~
+execute anchored eyes positioned ^ ^ ^2.2 positioned ~ ~-0.2 ~ run summon acacia_chest_boat ~ ~ ~ {CustomName:"",Items:[],Invulnerable:1b,NoGravity:1b,Passengers:[{id:sheep,Silent:1b,Tags:["pc.placeholder"],NoAI:1b,PersistenceRequired:1b,active_effects:[{id:"invisibility",duration:999999,show_particles:false}],attributes:[{base:0.0001,id:scale}],Invulnerable:1b,NoGravity:1b,equipment:{saddle:{id:saddle,count:1,components:{equippable:{slot:"saddle",equip_sound:{sound_id:"",range:0}},enchantments:{"core:system/xbundle/tick":1}}}}}]}
+execute anchored eyes positioned ^ ^ ^2 run data modify entity @n[type=acacia_chest_boat] Items set from entity @s SelectedItem.components."minecraft:custom_data".PotionCharger
+execute anchored eyes positioned ^ ^ ^2 run tag @n[type=acacia_chest_boat] add PotionCharger.Init
+$execute anchored eyes positioned ^ ^ ^2 run scoreboard players set @n[type=acacia_chest_boat] marker $(id)
+$execute anchored eyes positioned ^ ^ ^2 run scoreboard players set @n[type=sheep,tag=pc.placeholder] marker $(id)
+execute anchored eyes positioned ^ ^ ^2 store result score @n[type=sheep,tag=pc.placeholder] marker_2 run data get entity @s SelectedItem.components."minecraft:custom_data".BundleID

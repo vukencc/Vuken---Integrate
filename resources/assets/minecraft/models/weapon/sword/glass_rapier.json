@@ -1,0 +1,19 @@
+{
+  "parent": "item/stone_sword",
+  "textures": {
+    "layer0": "item/weapon/sword/glass_rapier"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [1, -82, 35],
+      "translation": [5.25, 4.75, -3],
+      "scale": [1.05, 1.05, 1]
+    },
+    "firstperson_lefthand": {
+      "rotation": [1, 91, -35],
+      "translation": [6.25, 4.75, -3],
+      "scale": [1.05, 1.05, 1]
+    }
+  }
+
+}

@@ -1,0 +1,5 @@
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{weakness:{amplifier:0}}}} store result storage mob_damage value double 1.0 run data get storage mob_damage value 0.9
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{weakness:{amplifier:1}}}} store result storage mob_damage value double 1.0 run data get storage mob_damage value 0.8
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{weakness:{amplifier:2}}}} store result storage mob_damage value double 1.0 run data get storage mob_damage value 0.7
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{weakness:{amplifier:3}}}} store result storage mob_damage value double 1.0 run data get storage mob_damage value 0.6
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{weakness:{amplifier:{min:4}}}}} store result storage mob_damage value double 1.0 run data get storage mob_damage value 0.5

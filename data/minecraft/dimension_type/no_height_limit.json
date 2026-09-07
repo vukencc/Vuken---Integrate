@@ -1,0 +1,33 @@
+{
+  "has_skylight": true,
+  "has_ceiling": false,
+  "coordinate_scale": 1,
+  "ambient_light": 0.0,
+  "logical_height": 2048,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "min_y": -128,
+  "height": 2048,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0,
+    "max_inclusive": 0
+  },
+  "monster_spawn_block_light_limit": 0,
+  "skybox": "overworld",
+  "timelines": "#in_overworld",
+  "attributes": {
+    "minecraft:visual/cloud_height": 9999,
+    "minecraft:visual/ambient_light_color": "#0a0a0a",
+    "gameplay/bed_rule": {
+      "can_sleep": "always",
+      "can_set_spawn": "never"
+    },
+    "gameplay/piglins_zombify": {
+      "modifier": "override",
+      "argument": false
+    },
+    "gameplay/respawn_anchor_works": true
+  },
+  "has_ender_dragon_fight": false,
+  "default_clock":"overworld_1"
+}

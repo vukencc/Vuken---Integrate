@@ -1,0 +1,10 @@
+{
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "layers": [],
+            "biome": "wynaria"
+        }
+    },
+    "type": "no_height_limit_2"
+}

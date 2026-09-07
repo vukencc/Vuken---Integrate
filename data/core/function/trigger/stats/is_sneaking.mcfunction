@@ -1,0 +1,1 @@
+execute if items entity @s[x_rotation=-90..60,gamemode=!adventure] weapon.mainhand *[custom_data~{IsPotionCharger:1b}] run function core:trigger/passive/potion_charger/init with storage temp_id

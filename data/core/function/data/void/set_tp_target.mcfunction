@@ -1,0 +1,1 @@
+function core:data/void/return with storage temp_id

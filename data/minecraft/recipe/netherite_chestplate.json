@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diamond_chestplate",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "components": {
+      "attribute_modifiers": [
+        {
+          "amount": 10,
+          "id": "armor_chest",
+          "operation": "add_value",
+          "type": "luck",
+          "slot": "chest"
+        }
+      ]
+    }
+  }
+}

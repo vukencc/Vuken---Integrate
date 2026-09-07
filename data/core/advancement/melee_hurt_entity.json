@@ -1,0 +1,19 @@
+{
+	"criteria":{
+		"comHurtEntity":{
+			"trigger":"minecraft:player_hurt_entity",
+			"conditions":{
+				"damage": {
+					"type": {
+						"tags": [{
+							"expected": true,
+							"id": "core:melee"
+						}]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [["comHurtEntity"]] ,
+	"rewards":{"function":"core:defence/com_hurt_entity"}
+}

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "fetch_1": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"item_fetcher\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [["fetch_1"]],
+    "rewards": {
+        "function": "operation:tool/item_fetcher/get"
+    }
+}

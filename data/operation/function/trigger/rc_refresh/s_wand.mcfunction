@@ -1,0 +1,3 @@
+execute if score @s wand.src matches 0 run return run execute if items entity @s weapon.mainhand *[consumable] run item modify entity @s weapon.mainhand {function:"set_components",components:{"!minecraft:consumable":{}}}
+execute if score @s wand.src.cd matches 1.. run return run execute if items entity @s weapon.mainhand *[consumable] run return run item modify entity @s weapon.mainhand {function:"set_components",components:{"!minecraft:consumable":{}}}
+execute unless items entity @s weapon.mainhand *[consumable] run item modify entity @s weapon.mainhand {function:"set_components",components:{consumable:{consume_seconds:1e38f,"animation":"none",has_consume_particles:false,"sound":"intentionally_empty"}}}

@@ -1,0 +1,1 @@
+$attribute @s movement_speed modifier add warrior_rage_spd $(temp) add_multiplied_base

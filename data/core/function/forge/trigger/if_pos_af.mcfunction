@@ -1,0 +1,5 @@
+data modify entity @n[dx=19,dy=19,dz=19,tag=active_txt_1] text.translate set from entity @s SelectedItem.components."minecraft:custom_data".af_show.[0]
+data modify entity @n[dx=19,dy=19,dz=19,tag=active_txt_2] text.translate set from entity @s SelectedItem.components."minecraft:custom_data".af_show.[1]
+data modify entity @n[dx=19,dy=19,dz=19,tag=active_txt_3] text.translate set from entity @s SelectedItem.components."minecraft:custom_data".af_show.[2]
+data modify entity @n[dx=19,dy=19,dz=19,tag=active_txt_4] text.translate set from entity @s SelectedItem.components."minecraft:custom_data".af_show.[3]
+data modify entity @n[dx=19,dy=19,dz=19,tag=active_txt_5] text.translate set from entity @s SelectedItem.components."minecraft:custom_data".af_show.[4]

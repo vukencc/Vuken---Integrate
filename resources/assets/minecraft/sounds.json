@@ -1,0 +1,5 @@
+{
+    "entity.player.levelup": {"sounds": [],"replace": true},
+    "block.firefly_bush.idle": {"sounds": [],"replace": true},
+    "entity.player.hurt": {"sounds": [],"replace":true}
+}

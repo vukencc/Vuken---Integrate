@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:diamond"
+  },
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "id": "minecraft:diamond_chestplate",
+    "components": {
+      "attribute_modifiers": [
+        {
+          "amount": 8,
+          "id": "armor_chest",
+          "operation": "add_value",
+          "type": "luck",
+          "slot": "chest"
+        }
+      ]
+    }
+  }
+}

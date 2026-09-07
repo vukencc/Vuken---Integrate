@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand [{function:set_components,components:{attribute_modifiers:[{amount:1024,id:bow_basic,type:"attack_speed",operation:"add_value",slot:mainhand,display:{type:"override",value:[{text:" $(temp) ",color:dark_green,italic:false},{translate:attribute.name.water_movement_efficiency,color:dark_green,italic:false}]}}]}}]

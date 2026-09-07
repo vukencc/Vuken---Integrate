@@ -1,0 +1,1 @@
+attribute @s movement_efficiency modifier remove sidestep

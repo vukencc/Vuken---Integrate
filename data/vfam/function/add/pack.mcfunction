@@ -1,0 +1,1 @@
+$function vfam:add {effect:$(effect),value:$(value),duration:$(duration),type:$(type),id:$(id),target:"@s"}

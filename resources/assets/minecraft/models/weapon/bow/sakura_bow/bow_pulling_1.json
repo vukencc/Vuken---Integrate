@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "item/weapon/bow/sakura_bow/1"
+  }
+}

@@ -1,0 +1,5 @@
+execute if score @s melee.rc.cd matches 1 run title @s actionbar [{translate:class.assassin.ability1.name.text,color:"#a800d6",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.swap.cd matches 1 run title @s actionbar [{translate:class.assassin.ability2.name.text,color:"#d790fe",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.src.cd matches 1 run title @s actionbar [{translate:class.assassin.ability3.name.text,color:"#2a7892",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.slc.cd matches 1 run title @s actionbar [{translate:class.assassin.ability4.name.text,color:"#d60000",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.drop.cd matches 1 run title @s actionbar [{translate:class.assassin.ability5.name.text,color:"#8ae8ff",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]

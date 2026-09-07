@@ -1,0 +1,1 @@
+execute as @e[type=!#bypass,nbt={HurtTime:10s}] on attacker if entity @s[tag=stdTemp1] as @n[type=#arrows] at @s run return run function core:custom_ench/range/arrow_as_center

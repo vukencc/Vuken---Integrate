@@ -1,0 +1,60 @@
+{
+	"values":
+	[
+		"#air",
+        "light",
+		"#saplings",
+
+		"cobweb",
+
+		"tall_grass",
+		"short_grass",
+		"short_dry_grass",
+		"tall_dry_grass",
+		"fern",
+		"large_fern",
+		"dead_bush",
+		"seagrass",
+		"kelp",
+		"brown_mushroom",
+		"red_mushroom",
+		"#flowers",
+		
+		"#pressure_plates",
+		
+		"torch",
+		"soul_torch",
+		"wall_torch",
+		"copper_torch",
+		"redstone_torch",
+		
+		"ladder",
+
+		"vine",
+		"twisting_vines",
+		"twisting_vines_plant",
+		"weeping_vines",
+		"weeping_vines_plant",
+		"glow_lichen",
+		"#cave_vines",
+		
+		"#corals",
+		"#all_signs",
+
+		"#banners",
+
+		"lever",
+		"#buttons",
+		"tripwire_hook",
+		"repeater",
+		"comparator",
+		"redstone_wire",
+		"#rails",
+		"big_dripleaf",
+		"big_dripleaf_stem",
+		"small_dripleaf",
+
+		"water",
+		"lava"
+	]
+}

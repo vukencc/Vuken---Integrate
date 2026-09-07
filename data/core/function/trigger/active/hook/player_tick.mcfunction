@@ -1,0 +1,1 @@
+execute unless items entity @s weapon.mainhand *[minecraft:charged_projectiles=[{id:arrow}]] run item modify entity @s weapon.mainhand {function:"set_components",components:{charged_projectiles:[{id:arrow,count:1}]}}

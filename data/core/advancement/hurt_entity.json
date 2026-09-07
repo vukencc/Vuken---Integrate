@@ -1,0 +1,11 @@
+{
+	"criteria":{
+		"comHurtEntity":{
+			"trigger":"minecraft:player_hurt_entity",
+			"conditions":{
+			}
+		}
+	},
+	"requirements": [["comHurtEntity"]] ,
+	"rewards":{"function":"operation:event/player/hurt_entity/trigger_pre"}
+}

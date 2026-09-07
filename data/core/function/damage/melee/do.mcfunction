@@ -1,0 +1,1 @@
+$damage @s $(value) core:custom_melee by @p[tag=DamageOwner]

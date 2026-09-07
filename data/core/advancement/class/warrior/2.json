@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "kill_marked_enemy": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "equipment": {
+                        "feet": {
+                            "predicates": {
+                                "enchantments": [{
+                                    "enchantments": "core:class/war/2"
+                                }]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [["kill_marked_enemy"]],
+    "rewards": {
+        "function": "core:class/ability/warrior/2/gain"
+    }
+}

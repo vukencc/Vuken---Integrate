@@ -1,0 +1,25 @@
+{
+    "temperature": -0.5,
+    "downfall": 0.4,
+    "has_precipitation": true,
+    "effects": {
+        "water_color": "#3939b1"
+    },
+    "spawners": {
+    },
+    "spawn_costs": {
+    },
+    "carvers": [],
+    "features": [],
+    "temperature_modifier":"frozen",
+    "attributes": {
+      "visual/cloud_height": {
+        "argument": 1000000,
+        "modifier": "add"
+      },
+      "visual/moon_phase": "full_moon",
+      "visual/star_brightness": 0.85,
+      "visual/block_light_tint": "#4557b1",
+      "visual/fog_color": "#afd5ff"
+    }
+}

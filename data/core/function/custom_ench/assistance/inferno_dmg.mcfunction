@@ -1,0 +1,1 @@
+$damage @s $(temp) core:custombp

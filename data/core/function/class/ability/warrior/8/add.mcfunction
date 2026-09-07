@@ -1,0 +1,3 @@
+execute if items entity @s weapon.mainhand #swords run item modify entity @s weapon.mainhand [{function:set_attributes,modifiers:[{amount:0.15,attribute:luck,id:warrior_8,operation:"add_multiplied_base",slot:"mainhand"}],replace:false}]
+execute if items entity @s weapon.mainhand #axes run item modify entity @s weapon.mainhand [{function:set_attributes,modifiers:[{amount:0.2,attribute:attack_damage,id:warrior_8,operation:add_multiplied_base,slot:mainhand}],replace:false}]
+item modify entity @s weapon.mainhand [{function:"set_custom_data",tag:{warrior_8:true}}]

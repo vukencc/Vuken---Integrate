@@ -1,0 +1,62 @@
+{
+    "description": " ",
+    "supported_items": "saddle",
+    "weight": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 1,
+        "per_level_above_first": 1
+    },
+    "max_level": 10,
+    "anvil_cost": 1,
+    "slots": ["saddle"],
+    "effects": {
+        "tick": [{
+            "effect": {
+                "type": "run_function",
+                "function": "core:data/enemy/tick"
+            }
+        },{
+            "effect": {
+                "type": "run_function",
+                "function": "core:custom_ench/assistance/inferno"
+            }
+        },{
+            "effect": {
+                "type": "run_function",
+                "function": "operation:stats/poison/init"
+            },
+            "requirements": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "wither": {}
+                    }
+                }
+            }
+        }],
+        "post_attack": [
+            {
+                "enchanted": "victim",
+                "affected": "victim",
+                "requirements": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "poison": {}
+                        }
+                    }
+                },
+                "effect": {
+                    "type": "run_function",
+                    "function": "operation:stats/mc_poison/init"
+                }
+            }
+        ]
+    }
+}

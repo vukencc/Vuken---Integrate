@@ -1,0 +1,25 @@
+execute as @s at @s run function core:inter_chat/chatre
+execute at @s run playsound item.book.page_turn hostile @s ~ ~ ~
+#agility chain_break energy eruption frenzy hasten invert life_drain regeneration sapper
+tellraw @p {"text":"★========================★",color:"blue",bold:true}
+tellraw @p {"text":"",color:"blue",bold:true}
+tellraw @s [{translate:name.return.display,"fallback":"[ Return ]",color:"#a2fff7",bold:true,"click_event":{action:"run_command",command:"/trigger menu.trigger set 1"}}]
+#trigger menu.trigger set 1
+tellraw @p {"text":"",color:"blue",bold:true}
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.thorns}],"fallback":"[ Thorns ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.thorns.lore,"fallback":"Enemies attack you take damage without costing your armor's durability additionally.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.inferno}],"fallback":"[ Thorns ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.inferno.lore,"fallback":"Enemies attack you take damage without costing your armor's durability additionally.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.unbreaking}],"fallback":"[ Unbreaking ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.unbreaking.lore,"fallback":"Make your armors and weapons more durable to damage.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.agility}],"fallback":"[ Agility ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.agility.lore,"fallback":"Increase your jump strength by 0.15 and safe fall distance by 1 block per level.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.chain_break}],"fallback":"[ Chain Break ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.chain_break.lore,"fallback":"Breaking a spawner destroys nearby spawners.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.energy}],"fallback":"[ Energy ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.energy.lore,"fallback":"Killing an enemy increases your movement speed by 15%% per level for 8 seconds.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.eruption}],"fallback":"[ Eruption ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.eruption.lore,"fallback":"Breaking a spawner deals 5 damage to all enemies nearby and triggers melee enchants.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.frenzy}],"fallback":"[ Frenzy ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.frenzy.lore,"fallback":"Killing an enemy increases you attack damage by 25%% per level for 8 seconds.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.hasten}],"fallback":"[ Hasten ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.hasten.lore,"fallback":"Killing an enemy increases your attack speed by 15%% per level for 8 seconds.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.life_drain}],"fallback":"[ Life Drain ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.life_drain.lore,"fallback":"Killing an enemy regenerates 1 health per level.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.regeneration}],"fallback":"[ Regeneration ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.regeneration.lore,"fallback":"Regenerate you 1 health per (5.5-0.5*Level) seconds, capped at per 1 second. ","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.sapper}],"fallback":"[ Sapper ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.sapper.lore,"fallback":"Breaking a spawner regenerates 1 health per level.","bold":true}]}}]
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.aptitude}],color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.aptitude.lore,"bold":true}]}}]
+
+tellraw @s [{translate:rawtext.blank.english,with:[{translate:name.enchantment.death_escape}],"fallback":"[ Death Escape ]",color:"#afffca",bold:true,hover_event:{action:"show_text",value:[{translate:name.enchantment.death_escape.lore,"fallback":"Enable you to survive from an attack that would have killed you, with a cooldown of (122-2*Level) seconds.","bold":true}]}}]
+tellraw @p {"text":"",color:"blue",bold:true}
+tellraw @p {"text":"★========================★",color:"blue",bold:true}

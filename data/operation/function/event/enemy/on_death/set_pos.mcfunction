@@ -1,0 +1,1 @@
+$execute positioned ~ ~$(dy) ~ run function operation:event/enemy/on_death/trigger

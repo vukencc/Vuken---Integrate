@@ -1,0 +1,1 @@
+$attribute @p[scores={vfam.index=$(index)}] $(effect) modifier add $(id) $(value) $(type)

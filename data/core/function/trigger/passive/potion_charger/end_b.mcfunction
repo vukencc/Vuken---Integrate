@@ -1,0 +1,1 @@
+$execute if entity @n[type=acacia_chest_boat,distance=..8,tag=PotionCharger.Init,scores={marker=$(id)}] run function core:trigger/passive/potion_charger/charge_to_mainhand with storage temp_id

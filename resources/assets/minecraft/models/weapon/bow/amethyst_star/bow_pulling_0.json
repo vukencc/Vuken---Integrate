@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "item/weapon/bow/amethyst_bow/0"
+  }
+}

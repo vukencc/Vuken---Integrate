@@ -1,0 +1,1 @@
+$function operation:motion/target/launch {power:$(power)}

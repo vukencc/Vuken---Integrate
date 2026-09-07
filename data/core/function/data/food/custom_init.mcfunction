@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand [{function:set_lore,lore:["",{translate:attribute.apply.when_consumed,color:blue,italic:false},[{text:" $(a) ",color:dark_green,italic:false},{translate:attribute.name.hunger,color:dark_green,italic:false}],[{text:" $(b) ",color:dark_green,italic:false},{translate:attribute.name.saturation,color:dark_green,italic:false}]],mode:"append"}]

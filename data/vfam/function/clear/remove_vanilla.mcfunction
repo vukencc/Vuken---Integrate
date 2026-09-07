@@ -1,0 +1,1 @@
+$attribute @p[scores={vfam.index=$(index)}] $(effect) modifier remove $(id)

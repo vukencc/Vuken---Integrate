@@ -1,0 +1,9 @@
+{
+    "condition": "any_of",
+    "terms": [{"condition": "entity_properties","entity": "this","predicate": {"location": {"position": {
+                "x": {"min": -683,"max": -592},
+                "y": {"min": -128,"max": 35},
+                "z": {"min": 203,"max": 294}},
+            "dimension": "overworld"}}}
+        ]
+}

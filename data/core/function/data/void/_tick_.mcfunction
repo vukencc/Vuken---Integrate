@@ -1,0 +1,3 @@
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{location:{position:{y:{max:-64}}}}} run return run function core:data/void/set_tp_target
+$execute positioned ~-4 ~-4 ~-4 as @e[type=armor_stand,distance=0..,tag=void_marker,limit=1,scores={marker=$(id)},dx=7,dz=7,dy=7] positioned ~4 ~4 ~4 rotated as @s run return run function core:data/void/marker_tick
+$execute as @e[type=armor_stand,distance=0..,tag=void_marker,limit=1,scores={marker=$(id)}] rotated as @s run return run function core:data/void/marker_tick

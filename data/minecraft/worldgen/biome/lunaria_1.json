@@ -1,0 +1,33 @@
+{
+    "temperature": -0.5,
+    "downfall": 0.4,
+    "has_precipitation": true,
+    "effects": {
+      "grass_color": 9102784,
+      "water_color": 7380940,
+      "foliage_color": 10288588,
+      "dry_foliage_color": 3764850,
+      "grass_color_modifier": "none"
+    },
+    "spawners": {
+    },
+    "spawn_costs": {
+    },
+    "carvers": [],
+    "features": [],
+    "temperature_modifier":"frozen",
+    "attributes": {
+      "visual/cloud_height": {
+        "argument": 1000000,
+        "modifier": "add"
+      },
+      "visual/sky_color":  12582911,
+      "visual/fog_color": 12058111,
+      "visual/water_fog_color": 12582906,
+      "visual/star_brightness": 0.9,
+      "gameplay/piglins_zombify": false,
+      "minecraft:gameplay/snow_golem_melts": false,
+      "visual/sky_light_color": 9695999,
+      "minecraft:visual/sunrise_sunset_color": -8299077
+    }
+}

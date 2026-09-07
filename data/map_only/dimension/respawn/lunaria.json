@@ -1,0 +1,10 @@
+{
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "layers": [],
+            "biome": "lunaria_1"
+        }
+    },
+    "type": "no_height_limit"
+}

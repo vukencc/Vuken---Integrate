@@ -1,0 +1,1 @@
+execute positioned ~-2 ~-2 ~-2 as @e[type=interaction,dx=3,dy=3,dz=3] at @s run function core:particle/system/forge/p2

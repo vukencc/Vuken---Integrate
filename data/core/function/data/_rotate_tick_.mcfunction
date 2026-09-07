@@ -1,0 +1,1 @@
+execute rotated as @s as @p positioned as @s run function core:data/player/rotate_tick

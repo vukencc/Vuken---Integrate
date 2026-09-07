@@ -1,0 +1,23 @@
+{
+    "temperature": -20,
+    "downfall": 0.4,
+    "has_precipitation": true,
+    "effects": {
+      "grass_color": 2514300,
+      "water_color": 1448801,
+      "foliage_color": 4073867
+    },
+    "spawners": {
+    },
+    "spawn_costs": {
+    },
+    "carvers": [],
+    "features": [],
+    "temperature_modifier":"frozen",
+    "attributes": {
+      "visual/cloud_height": {
+        "argument": 1000000,
+        "modifier": "add"
+      }
+    }
+}

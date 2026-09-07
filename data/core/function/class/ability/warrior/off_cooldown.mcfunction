@@ -1,0 +1,6 @@
+execute if score @s melee.rc.cd matches 1 run title @s actionbar [{translate:class.warrior.ability1.name.text,color:"#ff886a",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.src.cd matches 1 run title @s actionbar [{translate:class.warrior.ability2.name.text,color:"#bfbfbf",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.swap.cd matches 1 run title @s actionbar [{translate:class.warrior.ability3.name.text,color:"#ff0505",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.drop.cd matches 1 run title @s actionbar [{translate:class.warrior.ability4.name.text,color:"#fefa86",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.slc.cd matches 1 run title @s actionbar [{translate:class.warrior.ability5.name.text,color:"#0cb300",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s melee.sswap.cd matches 1 run title @s actionbar [{translate:class.warrior.ability7.name.text,color:"#c680ff",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]

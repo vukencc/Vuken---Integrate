@@ -1,0 +1,2 @@
+execute at @s anchored eyes facing entity @p eyes rotated ~90 45 run function core:particle/ench/first_strike_after
+execute at @s anchored eyes facing entity @p eyes rotated ~90 -45 run function core:particle/ench/first_strike_after

@@ -1,0 +1,1 @@
+$attribute @s movement_efficiency modifier add sidestep $(value) add_multiplied_total

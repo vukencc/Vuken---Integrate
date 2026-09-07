@@ -1,0 +1,1 @@
+summon marker ~ ~-1.7 ~ {Tags:["motion.launch_target","hook_to_target"]}

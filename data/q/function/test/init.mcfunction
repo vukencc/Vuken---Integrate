@@ -1,0 +1,1 @@
+scoreboard objectives add test minecraft.custom:minecraft.damage_dealt

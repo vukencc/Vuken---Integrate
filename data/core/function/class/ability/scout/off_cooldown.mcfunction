@@ -1,0 +1,5 @@
+execute if score @s range.lc.cd matches 1 run title @s actionbar [{translate:class.scout.ability1.name.text,color:"#adcdff",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s range.drop.cd matches 1 run title @s actionbar [{translate:class.scout.ability3.name.text,color:"#0af895",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s range.swap.cd matches 1 run title @s actionbar [{translate:class.scout.ability4.name.text,color:"#f0a400",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s range.slc.cd matches 1 run title @s actionbar [{translate:class.scout.ability5.name.text,color:"#df1aad",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s range.sswap.cd matches 1 run title @s actionbar [{translate:class.scout.ability7.name.text,color:"#00fbff",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]

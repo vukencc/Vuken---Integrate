@@ -1,0 +1,1 @@
+$damage @s $(value) core:custom_magic by @p[tag=DamageOwner]

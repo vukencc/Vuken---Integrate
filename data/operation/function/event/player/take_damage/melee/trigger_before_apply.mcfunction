@@ -1,0 +1,1 @@
+# damage value is in storage mob_damage->value

@@ -1,0 +1,1 @@
+execute in map_only:void_1 run tp @s 0 0 0

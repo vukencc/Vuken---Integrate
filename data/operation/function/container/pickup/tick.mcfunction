@@ -1,0 +1,1 @@
+execute at @s positioned ~-3 ~-3 ~-3 as @e[type=item,dx=5,dy=5,dz=5] if function operation:container/pickup/check run data modify entity @s PickupDelay set value 20s

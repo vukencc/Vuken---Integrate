@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diamond_boots",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "minecraft:netherite_boots",
+    "components": {
+      "attribute_modifiers": [
+        {
+          "amount": 5,
+          "id": "armor_feet",
+          "operation": "add_value",
+          "type": "luck",
+          "slot": "feet"
+        }
+      ]
+    }
+  }
+}

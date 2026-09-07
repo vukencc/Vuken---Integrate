@@ -1,0 +1,2 @@
+execute store result score @s timing_limited run data get entity @s data.stats.timing_limited
+data modify entity @s equipment.saddle.components."minecraft:enchantments" merge value {"operation:stats/t_limited_2":1,"operation:stats/t_limited_1":0}
