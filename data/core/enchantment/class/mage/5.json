@@ -21,22 +21,7 @@
     "tick": [{
       "effect": {
         "type": "run_function",
-        "function": "core:class/ability/mage/5/effect"
-      },
-      "requirements": {
-        "condition": "inverted",
-        "term": {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "vehicle": {}
-          }
-        }
-      }
-    },{
-      "effect": {
-        "type": "run_function",
-        "function": "core:class/ability/mage/5/particle"
+        "function": "core:class/ability/mage/5/tick"
       }
     }]
   },

@@ -183,3 +183,7 @@ scoreboard players set @a scout.pas3 0
 scoreboard players set @a assassin.pas1 0
 scoreboard players set @a assassin.pas2 0
 scoreboard players set @a assassin.pas3 0
+
+scoreboard players set @a mage.7.queue.1 0
+scoreboard players set @a mage.7.queue.2 0
+scoreboard players set @a mage.7.queue.3 0

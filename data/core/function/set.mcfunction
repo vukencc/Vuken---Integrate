@@ -348,3 +348,7 @@ scoreboard objectives add warrior.damage_dealt custom:damage_dealt
 
 scoreboard objectives add mage.1.charges dummy
 scoreboard objectives add mage.3.in dummy
+scoreboard objectives add mage.6.delay custom:play_time
+scoreboard objectives add mage.7.queue.1 dummy
+scoreboard objectives add mage.7.queue.2 dummy
+scoreboard objectives add mage.7.queue.3 dummy

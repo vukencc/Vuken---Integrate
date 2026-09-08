@@ -1,5 +1,7 @@
-execute at @s run tp @s ~ ~1.3 ~
+# The caster's facing is retained while @s is the freshly tagged projectile.
+execute on passengers store result score @s marker run data get storage core:mage_5 cast.owner
 function operation:motion/set_forward/init {speed:1}
 data modify entity @s Motion set from storage motion set_forward
-
-execute positioned ^ ^ ^-1 on passengers store result entity @s data.value double 1.0 as @p run function core:damage/magic/get {value:3}
+execute on passengers run data modify entity @s data merge from storage core:mage_5 cast
+execute on passengers run scoreboard players set @s inter_custom_cd 0
+tag @s remove mage.5.new
