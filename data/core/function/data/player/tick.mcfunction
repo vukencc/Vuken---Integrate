@@ -21,3 +21,5 @@ execute if score @s warrior.pas2 matches 0 if items entity @s weapon.mainhand #m
 execute if score @s wand.lc matches 1 if score @s wand.lc.cd matches ..0 unless entity @s[tag=mage.1.applied.1] run function core:class/ability/mage/1/add_1
 execute if score @s wand.lc matches 2 if score @s wand.lc.cd matches ..0 unless entity @s[tag=mage.1.applied.2] run function core:class/ability/mage/1/add_2
 execute if score @s wand.lc matches 0 if score @s wand.lc.cd matches ..0 unless entity @s[tag=mage.1.applied.0] run function core:class/ability/mage/1/clear
+
+execute if score @s mage.7.time matches 160.. if score @s mage.7.queue.1 matches 1.. run function core:class/ability/mage/7/clear

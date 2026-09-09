@@ -1,0 +1,1 @@
+execute at @s as @e[type=!#bypass,distance=..8] if items entity @s saddle *[enchantments~[{enchantments:"operation:stats/vulnerable"}]] run function core:class/ability/mage/7/5/cal

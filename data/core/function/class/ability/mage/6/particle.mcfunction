@@ -1,20 +1,20 @@
-particle end_rod ^1.500000 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^1.426585 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^1.213525 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^1.213525 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^1.426585 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^1.500000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^1.426585 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^1.213525 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^-1.213525 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^-1.426585 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^-1.500000 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^-1.426585 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^-1.213525 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^-1.213525 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^-1.426585 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^-1.500000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^-1.426585 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^0.000000 ^-1.213525 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^1.213525 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
-particle end_rod ^1.426585 ^0.000000 ^ ^ ^ ^10000000000 0.000000000075 0 normal
+execute facing ^1.500000 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^1.426585 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^1.213525 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^1.213525 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^1.426585 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^1.500000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^1.426585 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^1.213525 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^-1.213525 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^-1.426585 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^-1.500000 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^-1.426585 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^-1.213525 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^-1.213525 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^-1.426585 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^-1.500000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^-1.426585 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^0.000000 ^-1.213525 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^1.213525 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal
+execute facing ^1.426585 ^0.000000 ^ run particle end_rod ^ ^ ^1 ^ ^ ^-10000000000 0.000000000075 0 normal

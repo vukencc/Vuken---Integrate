@@ -4,3 +4,4 @@
 # no actual executor!
 
 execute if entity @s[tag=mage.2.marked] run function core:class/ability/mage/2/death_effect
+execute if entity @s[tag=mage_7_2] run function core:class/ability/mage/7/2/death_effect

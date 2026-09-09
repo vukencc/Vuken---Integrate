@@ -19,3 +19,5 @@ execute positioned ^ ^ ^1 as @n[type=snowball,tag=mage.5.new] run function core:
 data remove storage core:mage_5 cast
 
 playsound entity.ender_dragon.shoot hostile @s ~ ~ ~ 1 1.5 1
+
+function core:class/ability/mage/7/push {id:5}

@@ -5,3 +5,5 @@ execute positioned ^ ^ ^1 run summon snowball ~ ~ ~ {Item:{id:"ender_pearl",coun
 execute positioned ^ ^ ^1 as @n[type=snowball] run function core:class/ability/mage/2/set
 
 playsound entity.blaze.shoot hostile @s ~ ~ ~ 1 1.5 1
+
+function core:class/ability/mage/7/push {id:2}

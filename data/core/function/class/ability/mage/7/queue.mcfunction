@@ -1,1 +1,0 @@
-execute if score @s mage.7.queue.3 matches 1.. run function core:class/ability/mage/7/pop

@@ -16,3 +16,5 @@ execute if score @s wand.src matches 1 store result entity @n[type=armor_stand,t
 execute if score @s wand.src matches 2 store result entity @n[type=armor_stand,tag=mage.snowstorm] data.value double 1.0 run function core:damage/magic/get {value:14}
 
 playsound item.elytra.flying hostile @s ~ ~ ~ 1 2 1
+
+function core:class/ability/mage/7/push {id:3}

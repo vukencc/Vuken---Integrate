@@ -698,7 +698,7 @@
   "class.mage.ability7.name": "「Fairy Tale」     ",
   "class.mage.ability7.name.text": "「Fairy Tale」",
   "class.mage.ability7.level1": "Level I:\n",
-  "class.mage.ability7.desc1": "While using abilities, you gain 1 stack corresponding 「story」. All stacks of 「story」 disappear while you have not used abilities for 8 seconds. When you have more than 3 stacks of 「story」, cost the first stack, and trigger following effects:\nMagic Ray: deal 8 magic damage to random 1[2] enemies nearby\nArcane Bullet: when marked enemy died, deal 6[16] magic damage to all enemies nearby\nSnowstorm: freeze all enemies nearby for 0.5[1] second\nSakura Step: Drop your wand while sneaking to teleport backward and trigger same effects, with individual cooldown\nChaos Nova: apply extra Weakness I[II]\nMirror Shatter: each attack deals additional 1[2] magic damage\n",
+  "class.mage.ability7.desc1": "While using abilities, you gain 1 stack corresponding 「story」. All stacks of 「story」 disappear while you have not used abilities for 8 seconds. When you have more than 3 stacks of 「story」, cost the first stack, and trigger following effects:\nMagic Ray: Deal 8 magic damage to random 1[2] enemies nearby\nArcane Bullet: All nearby enemies deal 3[6] magic damage to nearby enemies on death\nSnowstorm: Freeze all enemies nearby for 1[2] second\nSakura Step: Reduce the cooldown duration by 2[4] seconds\nChaos Nova: Double nearby enemies in Vulnerability level and extend the duration 2[5] seconds\nMirror Shatter: Immediately refresh your latest used 1[2] abilities' cooldown duration\n",
   "class.mage.ability7.level2": "Level II:\n",
   "class.mage.ability7.desc2": "While using abilities at level II, trigger effects in \"[]\"",
   "class.mage.ability8.name": "「Angel Voice」    ",
