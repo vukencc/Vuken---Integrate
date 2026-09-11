@@ -1,7 +1,19 @@
 execute unless predicate operation:stats/sneaking run function operation:trigger/rc
 execute if predicate operation:stats/sneaking run function operation:trigger/src
 #speed radius color cost damage
+
 execute store result score @s stdTemp1 run data get entity @s SelectedItem.components."minecraft:custom_data".ArcanePot.cost 40
+
+### Only for this map
+### to be removed -
+execute if score @s class matches 3 if score @s alch.pas1 matches 2 store result score @s stdTemp1 run data get entity @s SelectedItem.components."minecraft:custom_data".ArcanePot.cost 32
+### End
+
+### Only for this map
+### to be removed -
+execute if entity @s[tag=alch.no_pot_cost] run scoreboard players set @s stdTemp1 0
+### End
+
 execute if score @s player.ManaBar < @s stdTemp1 run return fail
 item modify entity @s weapon.mainhand [{function:"set_enchantments",enchantments:{"core:inter/pot_effect":0}}]
 scoreboard players operation @s player.ManaBar -= @s stdTemp1

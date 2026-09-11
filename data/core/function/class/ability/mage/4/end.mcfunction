@@ -9,6 +9,7 @@ execute if score @s wand.drop matches 1 store result storage input value double 
 execute if score @s wand.drop matches 2 store result storage input value double 1.0 run function core:damage/magic/get {value:8}
 tag @s add DamageOwner
 execute as @e[tag=mage.4.marked] run scoreboard players add @s mage.8.count 1
+execute as @e[tag=mage.4.marked] run scoreboard players add @s mage.8.count.2 1
 execute as @e[tag=mage.4.marked] run function core:damage/magic/do with storage input
 tag @s remove DamageOwner
 

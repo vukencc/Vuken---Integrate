@@ -9,6 +9,7 @@ playsound entity.firework_rocket.large_blast hostile @a ~ ~ ~ 1 2 1
 execute at @a if score @p marker = @s stdTemp1 run tag @p add DamageOwner
 
 execute as @e[type=!#bypass,distance=..4] run scoreboard players add @s mage.8.count 1
+execute as @e[type=!#bypass,distance=..4] run scoreboard players add @s mage.8.count.2 1
 execute as @e[type=!#bypass,distance=..4] run function core:damage/magic/do with storage input
 
 tag @a remove DamageOwner

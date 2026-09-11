@@ -6,3 +6,6 @@ execute on passengers if entity @s[tag=mage.2.marked] run particle soul ~ ~1 ~ 0
 execute on passengers if entity @s[tag=mage_7_2] run particle sculk_soul ~ ~1 ~ 0.2 0.6 0.2 0.05 2 normal
 
 scoreboard players remove @s[scores={mage.3.in=1..}] mage.3.in 1
+
+execute if score @s mage.8.count matches 2.. run function core:class/ability/mage/8/1_init
+execute if score @s mage.8.count.2 matches 3.. run function core:class/ability/mage/8/2_init

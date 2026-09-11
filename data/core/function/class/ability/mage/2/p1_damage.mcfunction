@@ -9,6 +9,7 @@ execute if score @s stdTemp1 matches 2 on passengers if entity @s[type=armor_sta
 execute on passengers if entity @s[type=armor_stand] run data modify entity @s data.mage_2_damage.value set from storage input value2
 
 scoreboard players add @s mage.8.count 1
+scoreboard players add @s mage.8.count.2 1
 data modify entity @s Fire set value 160
 function core:damage/magic/do with storage input
 playsound entity.blaze.burn hostile @a ~ ~ ~

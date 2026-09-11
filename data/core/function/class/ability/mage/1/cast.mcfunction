@@ -24,6 +24,7 @@ execute positioned ~ ~1.3 ~ positioned ^ ^ ^7 positioned ~-0.5 ~-0.5 ~-0.5 as @e
 tag @s add DamageOwner
 execute store result storage input value double 1.0 run function core:damage/magic/get {value:7}
 execute as @e[type=!#bypass,tag=tempMagicRayMarked] run scoreboard players add @s mage.8.count 1
+execute as @e[type=!#bypass,tag=tempMagicRayMarked] run scoreboard players add @s mage.8.count.2 1
 execute as @e[type=!#bypass,tag=tempMagicRayMarked] run function core:damage/magic/do with storage input
 tag @s remove DamageOwner
 
