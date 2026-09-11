@@ -37,4 +37,4 @@ execute if score @p melee_thunder_aspect matches 1.. if score @p repeat_10_timin
 #damage calculation & apply
 function core:damage/melee/direct_apply
 
-function operation:event/enemy/take_damage/direct_melee
+function operation:event/enemy/take_damage/melee

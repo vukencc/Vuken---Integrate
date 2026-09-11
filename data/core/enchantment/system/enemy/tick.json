@@ -56,6 +56,40 @@
                     "type": "run_function",
                     "function": "operation:stats/mc_poison/init"
                 }
+            },
+            {
+                "affected": "victim",
+                "enchanted": "victim",
+                "effect": {
+                    "type": "run_function",
+                    "function": "operation:event/enemy/take_damage/magic"
+                },
+                "requirements": {
+                    "condition": "damage_source_properties",
+                    "predicate": {
+                        "tags": [{
+                            "expected": true,
+                            "id": "is_custom_magic"
+                        }]
+                    }
+                }
+            },
+            {
+                "affected": "victim",
+                "enchanted": "victim",
+                "effect": {
+                    "type": "run_function",
+                    "function": "operation:event/enemy/take_damage/ranged"
+                },
+                "requirements": {
+                    "condition": "damage_source_properties",
+                    "predicate": {
+                        "tags": [{
+                            "expected": true,
+                            "id": "range_det"
+                        }]
+                    }
+                }
             }
         ]
     }
