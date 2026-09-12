@@ -357,5 +357,6 @@ scoreboard objectives add mage.8.count dummy
 scoreboard objectives add mage.8.count.2 dummy
 
 scoreboard objectives add alch.2.time dummy
+scoreboard objectives add alch.2.hit dummy
 scoreboard objectives add alch.garden dummy
 scoreboard objectives add alch.garden.next dummy

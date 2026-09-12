@@ -1,5 +1,6 @@
 # Independent migration: do not reset learned skills or depend on core's version gate.
 scoreboard objectives add alch.runtime dummy
+scoreboard objectives add alch.2.owner dummy
 scoreboard objectives add alch.tmp dummy
 scoreboard objectives add alch.tmp2 dummy
 scoreboard objectives add alch.elixir dummy
@@ -19,3 +20,4 @@ scoreboard objectives add alch.debuffs dummy
 scoreboard objectives add alch.strong dummy
 scoreboard objectives add alch.value dummy
 scoreboard objectives add alch.deaths deathCount
+scoreboard objectives add alch.2.hit dummy

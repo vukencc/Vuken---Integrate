@@ -38,6 +38,6 @@ execute if predicate operation:stats/sneaking run data modify storage core:alche
 data modify storage core:alchemist pot_scatter set value 0
 execute if entity @s[tag=alch.2.casting] run data modify storage core:alchemist pot_scatter set value 1
 
-execute at @s anchored eyes positioned ^ ^ ^0.5 summon splash_potion run function core:trigger/basic/arcane_pot/set_attributes with storage element
+execute positioned as @s anchored eyes positioned ^ ^ ^0.5 summon splash_potion run function core:trigger/basic/arcane_pot/set_attributes with storage element
 
 function operation:event/player/use/pot

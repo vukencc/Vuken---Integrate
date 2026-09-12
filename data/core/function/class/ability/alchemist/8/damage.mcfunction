@@ -1,6 +1,6 @@
-$execute at @s unless entity @a[nbt={UUID:$(owner)},limit=1,distance=..16] run return run damage @s $(damage) core:custom_magic by @a[nbt={UUID:$(owner)},limit=1]
+$execute at @s unless entity @a[nbt={UUID:$(owner)},limit=1,distance=..16] run return run function core:class/ability/alchemist/8/apply {owner:$(owner),damage:$(damage)}
 $execute if predicate {condition:value_check,value:$(spring),range:{min:1}} run function core:class/ability/alchemist/8/count
-$execute unless predicate {condition:value_check,value:$(spring),range:{min:1}} run return run damage @s $(damage) core:custom_magic by @a[nbt={UUID:$(owner)},limit=1]
+$execute unless predicate {condition:value_check,value:$(spring),range:{min:1}} run return run function core:class/ability/alchemist/8/apply {owner:$(owner),damage:$(damage)}
 scoreboard players operation @s alch.value = @s alch.debuffs
 $execute if predicate {condition:value_check,value:$(spring),range:{min:2}} run scoreboard players operation @s alch.value += @s alch.debuffs
 $execute if predicate {condition:value_check,value:$(spring),range:{min:2}} run scoreboard players operation @s alch.value += @s alch.strong

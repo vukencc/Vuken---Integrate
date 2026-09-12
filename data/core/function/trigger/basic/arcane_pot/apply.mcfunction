@@ -15,10 +15,12 @@ execute if data entity @s data.effects.bleed run function core:trigger/basic/arc
 execute if data entity @s data.effects.frozen run function core:trigger/basic/arcane_pot/frozen with entity @s data.effects.frozen
 execute if data entity @s data.effects.vulnerable run function core:trigger/basic/arcane_pot/vulnerable with entity @s data.effects.vulnerable
 execute if data entity @s data.alch run function core:class/ability/alchemist/pot/impact
-$execute unless data entity @s data.alch as @e[type=!#bypass,tag=tmp] run damage @s $(damage) core:custom_magic by @p[tag=TempPotOwner]
+$execute unless data entity @s data.alch as @e[type=!#bypass,tag=tmp] run function core:damage/magic/pot {damage:$(damage)}
 $function core:trigger/basic/arcane_pot/tag {id:$(id)}
 
 $execute as @p[tag=TempPotOwner] run function operation:trigger/pot/after_effect {damage:$(damage)}
+# Check this projectile, not a nearby scatter potion that may belong to someone else.
+$execute if entity @s[tag=alch.2.pot] as @p[tag=TempPotOwner,scores={pot.lc=1..2}] as @e[type=!#bypass,tag=tmp] run function core:class/ability/alchemist/2/mark {damage:$(damage)}
 $execute if entity @s[tag=from_sneaking] as @p[tag=TempPotOwner] run function operation:trigger/pot/if_sneak_after_effect {damage:$(damage)}
 
 tag @e[type=!#bypass] remove tmp
