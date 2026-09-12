@@ -1,0 +1,21 @@
+# Independent migration: do not reset learned skills or depend on core's version gate.
+scoreboard objectives add alch.runtime dummy
+scoreboard objectives add alch.tmp dummy
+scoreboard objectives add alch.tmp2 dummy
+scoreboard objectives add alch.elixir dummy
+scoreboard objectives add alch.garden dummy
+scoreboard objectives add alch.garden.next dummy
+scoreboard objectives add alch.charges dummy
+scoreboard objectives add alch.kills dummy
+scoreboard objectives add alch.pool.cd dummy
+scoreboard objectives add alch.gift.cd dummy
+scoreboard objectives add alch.gifts dummy
+scoreboard objectives add alch.gift.level dummy
+scoreboard objectives add alch.heal.cd dummy
+scoreboard objectives add alch.mana.frac dummy
+scoreboard objectives add alch.life dummy
+scoreboard objectives add alch.pulse dummy
+scoreboard objectives add alch.debuffs dummy
+scoreboard objectives add alch.strong dummy
+scoreboard objectives add alch.value dummy
+scoreboard objectives add alch.deaths deathCount

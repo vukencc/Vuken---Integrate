@@ -1,3 +1,4 @@
+execute if score @s class matches 3 run return run function core:class/ability/alchemist/5/drop
 item replace entity @s weapon.mainhand from entity @n[type=item] contents
 kill @n[type=item]
 

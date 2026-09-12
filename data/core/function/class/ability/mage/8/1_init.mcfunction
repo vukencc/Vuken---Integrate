@@ -3,8 +3,10 @@ scoreboard players set $temp stdTemp1 0
 execute as @a run function core:class/ability/mage/8/1_cal
 execute if score $temp stdTemp1 matches 0 run return fail
 
-execute anchored eyes positioned ^ ^ ^0 run particle firefly ~ ~-0.5 ~ 0.4 0.4 0.4 0.1 35 normal
-playsound block.bamboo.break hostile @a ~ ~ ~ 1 2 1
+execute anchored eyes positioned ^ ^ ^0 run particle infested ~ ~-0.5 ~ 0.8 0.1 0.8 0.1 25 normal
+playsound block.bamboo.break hostile @a ~ ~ ~ 1 0.8 1
+playsound block.bamboo.break hostile @a ~ ~ ~ 1 0.8 1
+playsound block.bamboo.break hostile @a ~ ~ ~ 1 0.8 1
 
 tag @p[scores={mage.pas1=1..,class=2}] add DamageOwner
 execute store result storage input value double 1.0 run scoreboard players get $temp stdTemp1

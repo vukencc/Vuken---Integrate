@@ -1,5 +1,13 @@
 {
-    "pack": {
-        "description": "§b§l§nThe Resource Pack for Respawn II Gameplay. Necessary."
-    }
+  "pack": {
+    "description": "\u00a7b\u00a7l\u00a7nThe Resource Pack for Respawn II Gameplay. Necessary.",
+    "min_format": [
+      84,
+      0
+    ],
+    "max_format": [
+      84,
+      0
+    ]
+  }
 }

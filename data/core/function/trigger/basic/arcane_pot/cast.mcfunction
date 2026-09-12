@@ -26,6 +26,18 @@ function core:damage/magic/calculation
 scoreboard players operation @s stdTemp8 *= @s stdTemp1
 execute store result storage element damage double 0.00001 run scoreboard players get @s stdTemp8
 
+function core:class/ability/alchemist/pot/snapshot
+data modify storage core:alchemist pot_item set from entity @s SelectedItem
+execute store result storage core:alchemist pot_id int 1 run scoreboard players get @s marker
+data modify storage core:alchemist pot_effects set value {}
+data modify storage core:alchemist pot_effects set from entity @s SelectedItem.components."minecraft:custom_data".ArcanePot.effects
+data modify storage core:alchemist pot_tag set value "pot_as"
+data modify storage core:alchemist pot_tag set from entity @s SelectedItem.components."minecraft:custom_data".ArcanePot.tag
+data modify storage core:alchemist pot_sneak set value 0
+execute if predicate operation:stats/sneaking run data modify storage core:alchemist pot_sneak set value 1
+data modify storage core:alchemist pot_scatter set value 0
+execute if entity @s[tag=alch.2.casting] run data modify storage core:alchemist pot_scatter set value 1
+
 execute at @s anchored eyes positioned ^ ^ ^0.5 summon splash_potion run function core:trigger/basic/arcane_pot/set_attributes with storage element
 
 function operation:event/player/use/pot

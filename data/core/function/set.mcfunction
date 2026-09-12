@@ -355,3 +355,7 @@ scoreboard objectives add mage.7.queue.3 dummy
 scoreboard objectives add mage.7.time custom:play_time
 scoreboard objectives add mage.8.count dummy
 scoreboard objectives add mage.8.count.2 dummy
+
+scoreboard objectives add alch.2.time dummy
+scoreboard objectives add alch.garden dummy
+scoreboard objectives add alch.garden.next dummy

@@ -5,6 +5,9 @@ execute unless entity @s[tag=EnchBufferAffected] if entity @p[distance=..4.5,sco
 execute on passengers if entity @s[tag=mage.2.marked] run particle soul ~ ~1 ~ 0.2 0.6 0.2 0.05 2 normal
 execute on passengers if entity @s[tag=mage_7_2] run particle sculk_soul ~ ~1 ~ 0.2 0.6 0.2 0.05 2 normal
 
+execute if entity @s[tag=alch.2.marked] run scoreboard players remove @s alch.2.time 1
+execute if entity @s[tag=alch.2.marked] if score @s alch.2.time matches ..0 run function core:class/ability/alchemist/2/clear
+
 scoreboard players remove @s[scores={mage.3.in=1..}] mage.3.in 1
 
 execute if score @s mage.8.count matches 2.. run function core:class/ability/mage/8/1_init

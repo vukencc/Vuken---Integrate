@@ -1,5 +1,13 @@
-   {
-       "pack": {
-           "description": "§b§l§nA Datapack for Respawn II Gameplay."
-       }
-   }
+{
+  "pack": {
+    "description": "\u00a7b\u00a7l\u00a7nA Datapack for Respawn II Gameplay.",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": [
+      101,
+      1
+    ]
+  }
+}

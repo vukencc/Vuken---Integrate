@@ -3,6 +3,7 @@ execute store result storage temp_id id int 1 run scoreboard players get @s mark
 execute at @s run function core:data/void/_tick_ with storage temp_id
 #-------mana--------#
 scoreboard players add @s[scores={player.ManaBar=..3999}] player.ManaBar 10
+execute if score @s player.ManaBar matches 4001.. run scoreboard players set @s player.ManaBar 4000
 #-------music--------#
 scoreboard players remove @s[scores={music_timing=1..}] music_timing 1
 execute if entity @s[tag=music_on] if score @s in_boss matches 1.. if score @s music_timing matches 0 run function core:music/boss_reset

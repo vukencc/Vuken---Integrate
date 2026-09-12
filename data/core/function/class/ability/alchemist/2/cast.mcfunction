@@ -6,9 +6,13 @@ execute if score @s player.ManaBar < @s stdTemp1 run return fail
 
 execute store result score @s pot.lc.cd run function core:custom_ench/aptitude/cal {time:100}
 
+tag @s add alch.2.casting
 execute rotated ~-30 ~ run function core:trigger/basic/arcane_pot/cast
 execute rotated ~ ~ run function core:trigger/basic/arcane_pot/cast
 tag @s add alch.no_pot_cost
 execute rotated ~30 ~ run function core:trigger/basic/arcane_pot/cast
 tag @s remove alch.no_pot_cost
+tag @s remove alch.2.casting
+
+function core:class/ability/alchemist/4/on_skill
 
