@@ -1,0 +1,10 @@
+scoreboard objectives add scout.charges dummy
+scoreboard objectives add scout.level dummy
+scoreboard objectives add scout.pas1.cd dummy
+scoreboard objectives add scout.dash dummy
+scoreboard objectives add scout.air dummy
+scoreboard objectives add scout.life dummy
+scoreboard objectives add scout.used dummy
+scoreboard objectives add scout.tmp dummy
+scoreboard objectives add scout.saved dummy
+scoreboard objectives add scout.bonus dummy

@@ -1,0 +1,1 @@
+$execute on passengers if entity @s[type=marker,tag=scout.mark,scores={scout.used=0,scout.life=1..}] if data entity @s data.scout{owner:$(owner)} run function core:class/ability/scout/4/bonus_apply with entity @s data.scout
