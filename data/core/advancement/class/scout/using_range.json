@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "using_range": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:range"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:class/ability/scout/8/using"
+  }
+}

@@ -8,3 +8,8 @@ scoreboard objectives add scout.used dummy
 scoreboard objectives add scout.tmp dummy
 scoreboard objectives add scout.saved dummy
 scoreboard objectives add scout.bonus dummy
+scoreboard objectives add scout.hits dummy
+scoreboard objectives add scout.pulse dummy
+scoreboard objectives add scout.health dummy
+scoreboard objectives add scout.using dummy
+scoreboard objectives add scout.air.mult dummy

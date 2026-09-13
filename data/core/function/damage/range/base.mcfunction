@@ -15,4 +15,5 @@ execute if items entity @s weapon.mainhand crossbow run scoreboard players set @
 scoreboard players operation @s stdTemp1 *= @s charging_bow
 scoreboard players operation @s stdTemp1 /= $20 math.times
 
+function core:class/ability/scout/8/multiplier
 return run scoreboard players get @s stdTemp1

@@ -9,3 +9,4 @@ execute if score @s range.lc matches 1 if score @s scout.charges matches 2.. run
 scoreboard players remove @s[scores={scout.pas1.cd=1..}] scout.pas1.cd 1
 execute if score @s scout.pas1.cd matches 1 run title @s actionbar [{translate:"class.scout.ability2.name.text",color:"#d60c0c"},{translate:"class.ability.off_cooldown",color:"white"}]
 execute if score @s scout.dash matches 1.. run function core:class/ability/scout/3/tick
+function core:class/ability/scout/8/tick

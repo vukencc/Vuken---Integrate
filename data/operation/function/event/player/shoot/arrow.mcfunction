@@ -5,3 +5,4 @@
 # args : damage, etc
 $execute if score @p ench.attention.count matches 3.. run function core:custom_ench/forge/attention/modifier {damage:$(damage)}
 function core:class/ability/scout/2/on_shoot
+function core:class/ability/scout/6/on_shoot
