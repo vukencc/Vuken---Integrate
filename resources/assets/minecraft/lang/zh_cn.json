@@ -733,6 +733,7 @@
   "class.alchemist.ability4.desc2": "现在每3秒你获得1次伤害吸收I，持续3秒。此外，你使用技能时，获得5秒伤害吸收II。",
   "class.alchemist.ability5.name": "「聚能释放」",
   "class.alchemist.ability5.name.text": "「聚能释放」",
+  "class.alchemist.ability5.no_charge": "无储能",
   "class.alchemist.ability5.level1": "等级 I：\n",
   "class.alchemist.ability5.desc1": "丢弃你的奥术瓶，向前投掷一个无视重力，高移速的炸弹，造成相当于你手持奥术瓶伤害的150%%的魔法伤害，范围为125%%。\n每击杀三个敌人，你可获得1次此技能的储能，最多2储能。\n",
   "class.alchemist.ability5.level2": "等级 II：\n",

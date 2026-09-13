@@ -11,6 +11,7 @@ execute if score @s pot.sswap matches 2 run scoreboard players set @s alch.garde
 function core:class/ability/alchemist/4/on_skill
 
 playsound block.composter.ready hostile @s ~ ~ ~ 1 1.5 1
-particle happy_villager ~ ~1 ~ 0.5 1 0.5 0.05 20 normal
+execute at @s run function core:class/ability/alchemist/4/particle
 
 effect give @s absorption 4 0 true
+execute at @s anchored eyes positioned ^ ^ ^0 anchored feet run function core:class/ability/alchemist/4/view_particle

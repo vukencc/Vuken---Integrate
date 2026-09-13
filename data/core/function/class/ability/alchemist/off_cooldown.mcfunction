@@ -2,3 +2,4 @@ execute if score @s pot.lc.cd matches 1 run title @s actionbar [{translate:class
 execute if score @s pot.swap.cd matches 1 run title @s actionbar [{translate:class.alchemist.ability3.name.text,color:"#4f05fa",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
 execute if score @s pot.sswap.cd matches 1 run title @s actionbar [{translate:class.alchemist.ability4.name.text,color:"#fffa61",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
 execute if score @s pot.drop.cd matches 1 run title @s actionbar [{translate:class.alchemist.ability5.name.text,color:"#d10000",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]
+execute if score @s pot.src.cd matches 1 run title @s actionbar [{translate:class.alchemist.ability6.name.text,color:"#56226b",bold:true},{translate:class.ability.off_cooldown,color:white,bold:true}]

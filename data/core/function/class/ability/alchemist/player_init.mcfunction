@@ -4,7 +4,7 @@ scoreboard players set @s alch.garden 0
 scoreboard players set @s alch.garden.next 0
 scoreboard players set @s alch.charges 0
 scoreboard players set @s alch.kills 0
-scoreboard players set @s alch.pool.cd 0
+execute unless score @s pot.src.cd matches 0.. run scoreboard players set @s pot.src.cd 0
 scoreboard players set @s alch.gift.cd 0
 scoreboard players set @s alch.gifts 0
 scoreboard players set @s alch.gift.level 0

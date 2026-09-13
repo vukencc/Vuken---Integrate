@@ -8,7 +8,9 @@ scoreboard objectives add alch.garden dummy
 scoreboard objectives add alch.garden.next dummy
 scoreboard objectives add alch.charges dummy
 scoreboard objectives add alch.kills dummy
+# Legacy objective is retained only to migrate existing cooldowns.
 scoreboard objectives add alch.pool.cd dummy
+scoreboard objectives add pot.src.cd dummy
 scoreboard objectives add alch.gift.cd dummy
 scoreboard objectives add alch.gifts dummy
 scoreboard objectives add alch.gift.level dummy
@@ -21,3 +23,8 @@ scoreboard objectives add alch.strong dummy
 scoreboard objectives add alch.value dummy
 scoreboard objectives add alch.deaths deathCount
 scoreboard objectives add alch.2.hit dummy
+execute as @a run function core:class/ability/alchemist/6/migrate_cd
+scoreboard objectives add alch.fx.phase dummy
+scoreboard objectives add alch.fx.divisor dummy
+scoreboard objectives add alch.gift.cap dummy
+scoreboard objectives add alch.gift.collected dummy

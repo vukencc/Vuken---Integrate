@@ -19,4 +19,5 @@ scoreboard players set @s alch.elixir 120
 execute if score @s pot.swap matches 2 run scoreboard players set @s alch.elixir 160
 function core:class/ability/alchemist/4/on_skill
 playsound entity.illusioner.cast_spell hostile @s ~ ~ ~ 1 1.5 1
-particle witch ~ ~1 ~ 0.5 1 0.5 0.05 40 normal
+execute at @s run function core:class/ability/alchemist/3/particle
+execute at @s anchored eyes positioned ^ ^ ^0 anchored feet run function core:class/ability/alchemist/3/view_particle

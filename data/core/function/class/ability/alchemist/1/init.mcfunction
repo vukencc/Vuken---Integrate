@@ -10,4 +10,4 @@ tag @p[tag=TempPotOwner] add DamageOwner
 function core:damage/magic/do with storage input
 tag @a remove DamageOwner
 
-execute at @s anchored eyes positioned ^ ^ ^0 run particle crimson_spore ~ ~ ~ 0.4 1 0.4 0.1 30 normal
+execute at @s run function core:class/ability/alchemist/1/particle

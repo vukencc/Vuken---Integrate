@@ -6,3 +6,4 @@ execute if score @p[tag=TempPotOwner] pot.lc matches 2 run tag @s add alch.2.mar
 scoreboard players operation @s alch.2.owner = @p[tag=TempPotOwner] marker
 $data modify entity @s data.alch2.damage set value $(damage)
 scoreboard players set @s alch.2.time 80
+execute at @s anchored eyes positioned ^ ^ ^0 anchored feet run function core:class/ability/alchemist/2/mark_particle

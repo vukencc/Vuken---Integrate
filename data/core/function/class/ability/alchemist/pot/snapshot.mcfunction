@@ -5,4 +5,4 @@ data modify storage core:alchemist pot.damage set from storage element damage
 data modify storage core:alchemist pot.radius set from storage element radius
 execute store result storage core:alchemist pot.coefficient double 0.0001 run scoreboard players get @s stdTemp1
 execute if score @s class matches 3 store result storage core:alchemist pot.spring int 1 run scoreboard players get @s alch.pas4
-execute if score @s class matches 3 if score @s alch.pas2 matches 1..2 if predicate operation:stats/sneaking unless score @s alch.pool.cd matches 1.. run function core:class/ability/alchemist/6/prepare
+execute if score @s class matches 3 if score @s alch.pas2 matches 1..2 if predicate operation:stats/sneaking unless score @s pot.src.cd matches 1.. run function core:class/ability/alchemist/6/prepare

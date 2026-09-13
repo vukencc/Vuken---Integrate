@@ -1,3 +1,4 @@
-data merge entity @s {Marker:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,Silent:1b,Tags:["alch.gift"],CustomName:{text:"幸运礼物",color:"aqua"},CustomNameVisible:1b,equipment:{head:{id:chest,count:1},saddle:{id:saddle,count:1,components:{enchantments:{"core:class/alchemist/entity":1}}}}}
+data merge entity @s {Marker:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,Silent:1b,Tags:["alch.gift"],CustomName:{text:"幸运礼物",color:"aqua"},CustomNameVisible:1b,equipment:{head:{id:player_head,count:1,components:{profile:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg3MTNlZWNiY2Y1YjI4ZTI5ZmRhN2JlY2IyNGRlZjk3N2I0ZTdiMjhkMTc4NWEzZWI3YjZlMDU5MGZkNTlhYSJ9fX0="}]}}},saddle:{id:saddle,count:1,components:{enchantments:{"core:class/alchemist/entity":1}}}},Small:1b}
 data modify entity @s data set from storage core:alchemist gift
 scoreboard players set @s alch.life 1200
+tp @s ~ ~-100 ~

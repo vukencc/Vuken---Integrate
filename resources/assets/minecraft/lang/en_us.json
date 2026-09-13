@@ -733,6 +733,7 @@
   "class.alchemist.ability4.desc2": "Now you gain Absorption I for 3 seconds every 3 seconds. Additionally, when you use the ability, you gain Absorption II for 5 seconds.",
   "class.alchemist.ability5.name": "「Charged Release」        ",
   "class.alchemist.ability5.name.text": "「Charged Release」",
+  "class.alchemist.ability5.no_charge": "No charges",
   "class.alchemist.ability5.level1": "Level I:\n",
   "class.alchemist.ability5.desc1": "Drop your arcane vial and hurl a gravity‑ignoring, high‑velocity bomb forward. It deals 150%% Magic Damage of your held Arcane Vial with 125%% range.\nGain 1 charge of this ability for every 3 enemies slain, capped at 2 charges.\n",
   "class.alchemist.ability5.level2": "Level II:\n",

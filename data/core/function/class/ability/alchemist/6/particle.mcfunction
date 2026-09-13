@@ -1,0 +1,27 @@
+# Fixed geometric particles; cosmetic only.
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.65000 ~0.16000 ~0.00000 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.61080 ~0.16000 ~0.22231 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.49793 ~0.16000 ~0.41781 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.32500 ~0.16000 ~0.56292 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.11287 ~0.16000 ~0.64013 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.11287 ~0.16000 ~0.64013 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.32500 ~0.16000 ~0.56292 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.49793 ~0.16000 ~0.41781 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.61080 ~0.16000 ~0.22231 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.65000 ~0.16000 ~0.00000 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.61080 ~0.16000 ~-0.22231 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.49793 ~0.16000 ~-0.41781 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.32500 ~0.16000 ~-0.56292 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~-0.11287 ~0.16000 ~-0.64013 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.11287 ~0.16000 ~-0.64013 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.32500 ~0.16000 ~-0.56292 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.49793 ~0.16000 ~-0.41781 0 0 0 0 1 normal
+particle dust{color:[0.48,0.92,0.26],scale:0.8} ~0.61080 ~0.16000 ~-0.22231 0 0 0 0 1 normal
+particle end_rod ~1.0000 ~0.25 ~0.0000 0 1 0 0.06 0 normal
+particle end_rod ~0.7071 ~0.25 ~0.7071 0 1 0 0.06 0 normal
+particle end_rod ~0.0000 ~0.25 ~1.0000 0 1 0 0.06 0 normal
+particle end_rod ~-0.7071 ~0.25 ~0.7071 0 1 0 0.06 0 normal
+particle end_rod ~-1.0000 ~0.25 ~0.0000 0 1 0 0.06 0 normal
+particle end_rod ~-0.7071 ~0.25 ~-0.7071 0 1 0 0.06 0 normal
+particle end_rod ~-0.0000 ~0.25 ~-1.0000 0 1 0 0.06 0 normal
+particle end_rod ~0.7071 ~0.25 ~-0.7071 0 1 0 0.06 0 normal
