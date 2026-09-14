@@ -1,0 +1,1 @@
+execute if score @s class matches 2 if score @s wand.drop matches 1.. positioned ~-1 ~-1 ~-1 as @e[type=!#bypass,dx=1,dy=1,dz=1] run tag @s add mage.4.marked

@@ -2,7 +2,6 @@ execute unless score @s class matches 4 run return fail
 execute unless score @s range.swap matches 1..2 run return fail
 execute unless items entity @s weapon.mainhand #range run return fail
 execute if score @s range.swap.cd matches 1.. run return fail
-execute unless data entity @s SelectedItem.components."minecraft:custom_data".range run return fail
 function core:class/ability/scout/snapshot
 execute store result storage core:scout shot.level int 1 run scoreboard players get @s range.swap
 execute store result score @s scout.tmp run data get storage core:scout shot.damage 700

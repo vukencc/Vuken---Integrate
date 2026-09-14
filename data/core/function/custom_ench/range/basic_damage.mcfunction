@@ -1,1 +1,1 @@
-$damage @n[type=!#bypass,nbt={HurtTime:10s}] $(damage) core:custom_ranged by @p[tag=stdTemp1]
+$damage @n[tag=scout.hit_target] $(damage) core:custom_ranged by @p[tag=stdTemp1]

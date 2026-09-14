@@ -1,3 +1,6 @@
+### enemy_skill is the standard active-ability scb for enemies
+### will be tick-set to 0 if the enemy is disabled in ability-use
+### and continue to increase by 1 per tick as a timer for enemy skill loops
 scoreboard players add @s enemy_skill 1
 
 execute unless entity @s[tag=EnchBufferAffected] if entity @p[distance=..4.5,scores={ench.buffer.level=1..}] run function core:custom_ench/forge/buffer/apply

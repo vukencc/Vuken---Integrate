@@ -41,11 +41,15 @@ class CheckScout {
   var paths=new ArrayList<Path>();
   try(var stream=Files.walk(root.resolve("data/core/function/class/ability/scout"))) {stream.filter(p->p.toString().endsWith(".mcfunction")).sorted().forEach(paths::add);}
   for(String p:List.of("core/function/trigger/basic/arcane_pot/cast","core/function/trigger/basic/arcane_pot/set_attributes","core/function/trigger/basic/arcane_pot/apply","core/function/tick","core/function/init","core/function/data/player/tick","core/function/data/_tick_","core/function/class/sys/action/alchemist/reset","operation/function/event/enemy/on_death/trigger","operation/function/trigger/drop","operation/function/trigger/swap","operation/function/trigger/sswap","operation/function/stats/timing_limited/init")) paths.add(root.resolve("data/"+p+".mcfunction"));
+  for(String p:List.of("core/function/custom_ench/range/arrow_hit","core/function/custom_ench/range/capture_arrow","core/function/custom_ench/range/impact_target","core/function/custom_ench/range/resolve_hit","core/function/custom_ench/range/basic_damage","core/function/custom_ench/range/arrow_as_center","core/function/custom_ench/range/effects_transform_pre","core/function/custom_ench/range/tick_load","operation/function/container/swap_holding","operation/function/container/offhand_to_main","operation/function/trigger/lc_refresh/bow","core/function/data/drop_offhand")) paths.add(root.resolve("data/"+p+".mcfunction"));
   int count=0;
   for(Path path:paths) {
    var fn=CommandFunction.fromLines(Identifier.parse("test:"+path.getFileName().toString().replace(".mcfunction","")),dispatcher,source,Files.readAllLines(path));
    for(int level=1;level<=2;level++) {
     var data=new CompoundTag();
+    data.putString("slot","hotbar.0");data.putInt("nbt_slot",0);data.putString("scout8_slot","weapon.mainhand");
+    var applied=new CompoundTag();applied.putFloat("speed_multiplier",1);data.put("scout8_applied_use_effects",applied);
+    var original=new CompoundTag();original.putFloat("speed_multiplier",0.3f);data.put("scout8_original_use_effects",original);data.put("scout8_custom_data",new CompoundTag());
     data.putInt("cooldown",200);data.putIntArray("target",new int[]{1,2,3,4});data.putIntArray("owner",new int[]{-123456,234567,-345678,456789});
     data.putDouble("value",0.235);data.putDouble("damage",7.375);data.putDouble("pool_damage",1.106);data.putDouble("coefficient",1.25);data.putDouble("base",4.5);data.putInt("spring",level);data.putInt("level",level);data.putInt("interval",level==1?20:15);data.putDouble("speed",2.5);data.putInt("color",12345);data.putInt("id",1);data.putInt("duration",120);data.putDouble("radius",level==1?3.5:5.0);
     data.putInt("vulnerable",level==1?2:4);data.putInt("lifetime",level==1?100:160);

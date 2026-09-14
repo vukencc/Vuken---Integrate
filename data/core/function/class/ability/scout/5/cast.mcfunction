@@ -5,7 +5,6 @@ data modify storage core:scout decoy.owner set from entity @s UUID
 execute store result score @s scout.tmp run function core:class/ability/scout/5/find with storage core:scout decoy
 execute if score @s scout.tmp matches 1 run return fail
 execute if score @s range.slc.cd matches 1.. run return fail
-execute unless data entity @s SelectedItem.components."minecraft:custom_data".range run return fail
 function core:class/ability/scout/snapshot
 data modify storage core:scout decoy set from storage core:scout shot
 execute store result storage core:scout decoy.level int 1 run scoreboard players get @s range.slc

@@ -7,5 +7,5 @@ execute if score @s range.drop matches 2 store result score @s range.drop.cd run
 scoreboard players operation @s scout.level = @s range.drop
 scoreboard players set @s scout.dash 60
 scoreboard players set @s scout.air 0
-execute rotated ~ -15 run function operation:motion/free/init {power:1}
+execute rotated ~ -15 run function operation:motion/free/init {power:2}
 playsound entity.breeze.jump player @s ~ ~ ~ 1 1.2

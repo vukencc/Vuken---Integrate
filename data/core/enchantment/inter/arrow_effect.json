@@ -20,6 +20,18 @@
         "any"
     ],
     "effects": {
+        "post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "damaging_entity",
+                "effect": {"type": "run_function", "function": "core:custom_ench/range/capture_arrow"}
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {"type": "run_function", "function": "core:custom_ench/range/impact_target"}
+            }
+        ],
         "projectile_spawned": [
             {
                 "effect": {
