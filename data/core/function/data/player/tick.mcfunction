@@ -25,3 +25,8 @@ execute if score @s wand.lc matches 0 if score @s wand.lc.cd matches ..0 unless 
 execute if score @s mage.6.delay matches ..-1 run function core:class/ability/mage/6/tick
 
 execute if score @s mage.7.time matches 160.. if score @s mage.7.queue.1 matches 1.. run function core:class/ability/mage/7/clear
+
+execute if score @s class matches 5 run function core:class/ability/assassin/player_tick
+execute unless score @s class matches 5 if entity @s[tag=assassin.active] run function core:class/ability/assassin/clear
+
+execute if score @s assassin.8.damage_dealt matches 1.. run function core:class/ability/assassin/8/blindness_check

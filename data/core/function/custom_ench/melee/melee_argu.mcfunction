@@ -36,5 +36,3 @@ execute if score @p melee_curse matches 1.. unless entity @s[tag=melee_cursed] r
 execute if score @p melee_thunder_aspect matches 1.. if score @p repeat_10_timing <= @p melee_thunder_aspect run function core:custom_ench/melee/th_aspect_spe
 #damage calculation & apply
 function core:damage/melee/direct_apply
-
-function operation:event/enemy/take_damage/melee

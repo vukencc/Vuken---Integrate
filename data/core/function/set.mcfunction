@@ -101,6 +101,8 @@ team add green
 team modify green color green
 team add purple
 team modify purple color dark_purple
+team add pink
+team modify pink color light_purple
 team add red
 team modify red color red
 team add aqua
@@ -360,3 +362,20 @@ scoreboard objectives add alch.2.time dummy
 scoreboard objectives add alch.2.hit dummy
 scoreboard objectives add alch.garden dummy
 scoreboard objectives add alch.garden.next dummy
+
+scoreboard objectives add assassin.rc.duration custom:play_time
+scoreboard objectives add assassin.3.duration custom:play_time
+scoreboard objectives add assassin.4.duration custom:play_time
+scoreboard objectives add assassin.7.count dummy
+scoreboard objectives add assassin.7.step dummy
+scoreboard objectives add assassin.3.interval dummy
+scoreboard objectives add assassin.5.duration dummy
+
+scoreboard objectives add assassin.tmp dummy
+scoreboard objectives add assassin.8.facing dummy
+scoreboard objectives add assassin.8.health dummy
+scoreboard objectives add assassin.8.threshold dummy
+scoreboard players set $36000 assassin.8.facing 36000
+scoreboard objectives add assassin.4.step dummy
+
+scoreboard objectives add assassin.8.damage_dealt custom:damage_dealt

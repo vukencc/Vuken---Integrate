@@ -1,3 +1,4 @@
+execute if entity @s[tag=assassin.skill.damage] run return run advancement revoke @s only core:melee_hurt_entity
 data merge storage melee_ench {}
 function core:custom_ench/melee/ench_pre
 

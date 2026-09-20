@@ -1,5 +1,6 @@
 execute if score @s class matches 4 run return run function core:class/ability/scout/3/drop
 execute if score @s class matches 3 run return run function core:class/ability/alchemist/5/drop
+execute if score @s class matches 5 run return run function core:class/ability/assassin/5/drop
 item replace entity @s weapon.mainhand from entity @n[type=item] contents
 kill @n[type=item]
 

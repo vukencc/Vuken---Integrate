@@ -16,3 +16,9 @@ scoreboard players remove @s[scores={mage.3.in=1..}] mage.3.in 1
 
 execute if score @s mage.8.count matches 2.. run function core:class/ability/mage/8/1_init
 execute if score @s mage.8.count.2 matches 3.. run function core:class/ability/mage/8/2_init
+
+scoreboard players add @s[scores={assassin.4.duration=..-1}] assassin.4.duration 1
+execute if score @s assassin.4.duration matches 0 run data remove entity @s data.assassin_4
+execute if score @s assassin.4.duration matches 0 run scoreboard players reset @s assassin.4.duration
+scoreboard players add @s[scores={assassin.5.duration=..-1}] assassin.5.duration 1
+execute if score @s assassin.5.duration matches 0 run function core:class/ability/assassin/5/clear_mark
