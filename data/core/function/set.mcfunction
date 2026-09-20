@@ -370,6 +370,7 @@ scoreboard objectives add assassin.7.count dummy
 scoreboard objectives add assassin.7.step dummy
 scoreboard objectives add assassin.3.interval dummy
 scoreboard objectives add assassin.5.duration dummy
+scoreboard objectives add assassin.5.fx dummy
 
 scoreboard objectives add assassin.tmp dummy
 scoreboard objectives add assassin.8.facing dummy

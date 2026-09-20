@@ -1,18 +1,4 @@
-execute positioned ^-6.0 ^3.0 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-5.8 ^2.9 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-5.6 ^2.8 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-5.4 ^2.7 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-5.2 ^2.6 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-5.0 ^2.5 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-4.8 ^2.4 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-4.6 ^2.3 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-4.4 ^2.2 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-4.2 ^2.1 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-4.0 ^2.0 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-3.8 ^1.9 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-3.6 ^1.8 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-3.4 ^1.7 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^-3.2 ^1.6 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
+
 execute positioned ^-3.0 ^1.5 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
 execute positioned ^-2.8 ^1.4 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
 execute positioned ^-2.6 ^1.3 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
@@ -45,17 +31,3 @@ execute positioned ^2.6 ^-1.3 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.00
 execute positioned ^2.8 ^-1.4 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
 execute positioned ^3.0 ^-1.5 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
 execute positioned ^3.2 ^-1.6 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^3.4 ^-1.7 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^3.6 ^-1.8 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^3.8 ^-1.9 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^4.0 ^-2.0 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^4.2 ^-2.1 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^4.4 ^-2.2 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^4.6 ^-2.3 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^4.8 ^-2.4 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^5.0 ^-2.5 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^5.2 ^-2.6 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^5.4 ^-2.7 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^5.6 ^-2.8 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^5.8 ^-2.9 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal
-execute positioned ^6.0 ^-3.0 ^ run particle end_rod ^ ^ ^ ^ ^ ^10000000000 0.000000000075 0 normal

@@ -2,7 +2,7 @@ data modify entity @s Item set from storage core:assassin_5 weapon
 tag @s remove assassin.5.new_item
 tag @s add assassin.5.projectile
 data merge entity @s {PickupDelay:32767,Glowing:1b}
-team join pink @s
+team join gold @s
 
 function operation:motion/set_forward/init {speed:0.8}
 data modify entity @s Motion set from storage motion set_forward

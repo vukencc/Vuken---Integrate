@@ -52,6 +52,10 @@ for path in ["data/core/function/defence/com_hurt_entity.mcfunction", "data/core
 copy("data/core/function/custom_ench/forge")
 copy("data/core/function/trigger/enemy")
 
+if "--full" in sys.argv:
+    # Keep real enchantments, callbacks and registries for integration regression tests.
+    copy("data")
+
 write("data/test/test_instance/assassin.json", {
     "type": "minecraft:function", "function": "test:assassin",
     "environment": "minecraft:default", "structure": "minecraft:empty",
@@ -73,8 +77,7 @@ lines += [
     "scoreboard players set $10 math.times 10",
     "scoreboard players set $20 math.times 20",
     "scoreboard players set $36000 assassin.8.facing 36000",
-    "function vfam:init",
-    "scoreboard players set $-10 assassin.8.extra -10",
+    "function vfam:set",
 ]
 setup = out / "data/test/function/setup.mcfunction"
 setup.parent.mkdir(parents=True, exist_ok=True)
@@ -82,13 +85,3 @@ setup.write_text("\n".join(lines) + "\n", encoding="utf-8")
 write("data/minecraft/tags/function/load.json", {"values": []})
 write("data/minecraft/tags/function/tick.json", {"values": []})
 print(out)
-
-# Temporary integration trace, removed after resolving shared callback coverage.
-for rel in ["core/function/defence/com_hurt_entity", "core/function/custom_ench/melee/melee_argu", "core/function/damage/melee/direct_apply", "core/function/damage/melee/calculation", "vfam/function/get", "vfam/function/get/list", "vfam/function/get/get_effect", "operation/function/event/player/melee_hurt_entity/trigger"]:
-    p=out / ("data/"+rel+".mcfunction")
-    if not p.exists(): continue
-    lines=[]
-    for i,l in enumerate(p.read_text(encoding="utf-8").splitlines()):
-        lines.append(l)
-        if l and not l.startswith("#"): lines.append('data modify storage test:trace "'+rel+'" set value '+str(i+1))
-    p.write_text("\n".join(lines)+"\n",encoding="utf-8")

@@ -50,22 +50,6 @@
 						}
 					}
 				}
-			},
-			{
-				"effect": {
-					"type": "run_function",
-					"function": "core:class/ability/assassin/8/native_end"
-				}
-			}
-		],
-		"post_attack": [
-			{
-				"enchanted": "attacker",
-				"affected": "victim",
-				"effect": {
-					"type": "run_function",
-					"function": "core:class/ability/assassin/8/native_capture"
-				}
 			}
 		]
 	}

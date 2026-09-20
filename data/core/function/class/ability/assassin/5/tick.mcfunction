@@ -7,6 +7,4 @@ execute unless entity @s[tag=assassin.5.marked] if entity @s[tag=assassin.5.2] p
 execute if data storage core:assassin_5 {hit:1b} run tag @s add assassin.5.marked
 execute if entity @s[tag=assassin.5.marked] run function operation:stats/kill_this
 
-particle end_rod ~ ~ ~ 0.08 0.08 0.08 0.01 2 normal
-particle cherry_leaves ~ ~ ~ 0.08 0.08 0.08 0.02 3 normal
-particle dust_color_transition{from_color:5636095,to_color:15074303,scale:0.85} ~ ~ ~ 0.08 0.08 0.08 0.01 3 normal
+execute unless entity @s[tag=assassin.5.marked] run function core:class/ability/assassin/5/fx/trail

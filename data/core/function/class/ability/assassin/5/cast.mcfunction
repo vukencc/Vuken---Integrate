@@ -9,5 +9,5 @@ data modify storage core:assassin_5 weapon set from entity @s SelectedItem
 execute anchored eyes positioned ^ ^ ^0.5 run summon item ~ ~ ~ {PickupDelay:32767,Tags:["kill_this_with","assassin.5.projectile","assassin.5.new_item"],Item:{id:"netherite_sword",count:1}}
 execute anchored eyes positioned ^ ^ ^0.5 as @n[type=item,tag=assassin.5.new_item,distance=..1] anchored feet run function core:class/ability/assassin/5/set
 playsound item.trident.throw player @a[distance=..24] ~ ~ ~ 0.8 1.3
-particle end_rod ^ ^1.4 ^0.7 0.15 0.15 0.15 0.08 14 normal
+execute anchored eyes positioned ^-0.2 ^-0.1 ^0.9 anchored feet run function core:class/ability/assassin/5/fx/cast
 function core:class/ability/assassin/7/get

@@ -13,5 +13,7 @@ execute if score @s assassin.pas3 matches 2 at @s positioned ~-2.5 ~-1 ~-2.5 as 
 playsound block.fire.extinguish hostile @s ~ ~2 ~ 1 0.5 1
 playsound block.fire.extinguish hostile @s ~ ~2 ~ 1 2 1
 particle soul_fire_flame ~ ~1 ~ 1.3 0.6 1.3 0.05 45 normal
+particle reverse_portal ~ ~1 ~ 1.65 0.75 1.65 0.08 34 normal
+particle dust_color_transition{from_color:4329983,to_color:15132671,scale:1.0} ~ ~1 ~ 1.45 0.55 1.45 0.03 28 normal
 
 scoreboard players set @s assassin.8.damage_dealt 0

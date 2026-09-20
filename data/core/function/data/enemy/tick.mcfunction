@@ -21,4 +21,5 @@ scoreboard players add @s[scores={assassin.4.duration=..-1}] assassin.4.duration
 execute if score @s assassin.4.duration matches 0 run data remove entity @s data.assassin_4
 execute if score @s assassin.4.duration matches 0 run scoreboard players reset @s assassin.4.duration
 scoreboard players add @s[scores={assassin.5.duration=..-1}] assassin.5.duration 1
+execute if score @s assassin.5.duration matches ..-1 run function core:class/ability/assassin/5/fx/mark_tick
 execute if score @s assassin.5.duration matches 0 run function core:class/ability/assassin/5/clear_mark

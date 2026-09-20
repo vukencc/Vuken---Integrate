@@ -1,0 +1,1 @@
+$damage @s $(value) core:custom_melee by @a[nbt={UUID:$(owner)},limit=1]

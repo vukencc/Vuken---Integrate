@@ -1,3 +1,4 @@
+scoreboard players reset @s assassin.5.fx
 tag @s remove assassin.5.1.apply
 tag @s remove assassin.5.2.apply
 data remove entity @s data.assassin_5_owner
